@@ -66,7 +66,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
 appBar: AppBar(
   backgroundColor: Colors.black,
-  leading: const Icon(CupertinoIcons.back),
+  // leading: const Icon(CupertinoIcons.back),
   title: const Text('Wallpaper',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w500,color: Colors.white),),),
       body: Column(
         children: [

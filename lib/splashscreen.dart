@@ -3,7 +3,7 @@ import 'package:lottie/lottie.dart';
 import 'package:wallpaper_app/homepage.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({Key? key});
+  const Splash({super.key,});
 
   @override
   State<Splash> createState() => _SplashState();
